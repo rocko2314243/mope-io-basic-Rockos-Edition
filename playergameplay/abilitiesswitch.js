@@ -214,7 +214,7 @@ function abilitiesswitcher(ability) {
                 abil_recharging: false,
                 abil_possible: true,
                 abil_active: false,
-                abil_time: 6,
+                abil_time: 0,
                 abil_timestamp: Date.now(),
                 abil_noflags: [20, 19],
                 abil_bardivideusable: 1,
@@ -229,7 +229,7 @@ function abilitiesswitcher(ability) {
                 abil_recharging: false,
                 abil_possible: true,
                 abil_active: false,
-                abil_time: 5,
+                abil_time: 0,
                 abil_timestamp: Date.now(),
                 abil_noflags: [20, 19],
                 abil_bardivideusable: 1,
@@ -244,7 +244,7 @@ function abilitiesswitcher(ability) {
                 abil_recharging: false,
                 abil_possible: true,
                 abil_active: false,
-                abil_time: 10,
+                abil_time: 0,
                 abil_timestamp: Date.now(),
                 abil_noflags: [20, 9, 19],
                 abil_bardivideusable: 1,
@@ -259,7 +259,7 @@ function abilitiesswitcher(ability) {
                 abil_recharging: false,
                 abil_possible: true,
                 abil_active: false,
-                abil_time: 15,
+                abil_time: 0,
                 abil_timestamp: Date.now(),
                 abil_noflags: [20, 19],
                 abil_bardivideusable: 1,
@@ -274,7 +274,7 @@ function abilitiesswitcher(ability) {
                 abil_recharging: false,
                 abil_possible: true,
                 abil_active: false,
-                abil_time: 10,
+                abil_time: 0,
                 abil_timestamp: Date.now(),
                 abil_noflags: [20, 19],
                 abil_bardivideusable: 1,
@@ -304,7 +304,7 @@ function abilitiesswitcher(ability) {
                 abil_recharging: false,
                 abil_possible: true,
                 abil_active: false,
-                abil_time: 10,
+                abil_time: 0,
                 abil_timestamp: Date.now(),
                 abil_noflags: [20],
                 abil_bardivideusable: 1,
@@ -357,7 +357,7 @@ function abilitiesswitcher(ability) {
 
             break
     }
-    if (game.load(9) == true) button.abil_time = 0.1
+    if (game.load(9) == true) button.abil_time = 0
     return button
 }
 abilitiesswitcher.prototype = {}
