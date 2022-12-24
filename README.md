@@ -1,4 +1,5 @@
-# universalmope
+# Basic mope.io Client
+This is like mope2.io/1v1 but slightly modified.
 IF YOU HAVE ANY ISSUE OR COMMERCIAL ISSUE WITH THIS PLEASE CONTACT ME TO THIS EMAIL : ahmetcanfr@hotmail.com
 JOIN THIS SERVER FOR HELP: https://discord.gg/KbFB8XhhrW
 
