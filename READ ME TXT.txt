@@ -1,3 +1,4 @@
+This is basic. Its like Mope1v1 but with a sandbox edition.
 YOU NEED NODEJS LASTEST VERSION FOR THIS TO WORK!
 
 -https://nodejs.org/en/
