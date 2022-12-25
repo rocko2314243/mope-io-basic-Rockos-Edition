@@ -17,12 +17,12 @@ function gift(id, newid, x, y) {
     this.collideable = true
     this.xp = 99999
     this.water = 10
-    this.spawned = false
-    this.isloaded = false
+    this.spawned = true
+    this.isloaded = true
     this.energy = 20
     this.spawnedby2 = newid
     this.biome = 1
-    this.movable = false
+    this.movable = true
     this.speed = 10
     this.killerid = 0
     this.isinvisible = false
