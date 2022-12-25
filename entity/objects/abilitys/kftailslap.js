@@ -27,7 +27,7 @@ function tailslap(id, by, x, y, angle, spec, radius) {
     this.angle = angle
 
     this.movable = false
-    this.speed = 0
+    this.speed = 200
     this.killerid = 0
     this.isinvisible = false
 
@@ -39,7 +39,7 @@ function tailslap(id, by, x, y, angle, spec, radius) {
 
     setTimeout(() => {
         this.isdead = true
-    }, 600);
+    }, 0);
     this.veloX = 0
     this.veloY = 0
 };
