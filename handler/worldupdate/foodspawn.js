@@ -4,6 +4,7 @@ const mushroom = require("../../entity/objects/food/mushroom.js")
 const redmushroom = require("../../entity/objects/food/redmushroom.js")
 
 const watermelon = require("../../entity/objects/food/watermelon.js")
+const gift = require("../../entity/objects/food/gift.js")
 const watermelonslice = require("../../entity/objects/food/watermelonslice.js")
 
 const waterberry = require("../../entity/objects/food/waterberry.js")
