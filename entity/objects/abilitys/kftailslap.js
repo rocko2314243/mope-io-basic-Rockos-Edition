@@ -38,8 +38,8 @@ function tailslap(id, by, x, y, angle, spec, radius) {
     this.spawnedtime = Date.now();
 
     setTimeout(() => {
-        this.isdead = false
-    }, 100);
+        this.isdead = true
+    }, 600);
     this.veloX = 0
     this.veloY = 0
 };
