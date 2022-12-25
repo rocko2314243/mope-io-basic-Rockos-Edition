@@ -6,7 +6,7 @@ fun.prototype = {
     sleig: function (entities, writer, player, time, aobjids) {
 
 
-        player.canmove = false
+        player.canmove = true
 
 
         let max = 5 + 1
