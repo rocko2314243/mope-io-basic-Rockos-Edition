@@ -55,8 +55,8 @@ function foodspawn(entities, objectid, aobjids) {
                     }
                     break
                 case 44:
-                    if (entities[objectid].foodamount < 2) {
-                        let which = (Math.floor(Math.random() * 2))
+                    if (entities[objectid].foodamount < 20) {
+                        let which = (Math.floor(Math.random() * 5))
                         entities[objectid].addedfood()
                         if (which == 1) {
                             let objids = aobjids.giveid(true);
