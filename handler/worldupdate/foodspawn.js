@@ -67,6 +67,10 @@ function foodspawn(entities, objectid, aobjids) {
                             let objids = aobjids.giveid(true);
                             let newpos = util.rotate(entities[objectid].x, entities[objectid].y, entities[objectid].x + util.randomNumber(entities[objectid].radius / 2, entities[objectid].radius), entities[objectid].y, util.randomNumber(0, 360))
                             entities[objids] = new watermelonslice(objids, entities[objectid].id, newpos.x, newpos.y)
+                            let objids = aobjids.giveid(true);
+                            let newpos = util.rotate(entities[objectid].x, entities[objectid].y, entities[objectid].x + util.randomNumber(entities[objectid].radius / 2, entities[objectid].radius), entities[objectid].y, util.randomNumber(0, 360))
+                            entities[objids] = new gift(objids, entities[objectid].id, newpos.x, newpos.y)
+                            
 
                         }
                     }
