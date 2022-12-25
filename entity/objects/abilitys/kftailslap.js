@@ -39,7 +39,7 @@ function tailslap(id, by, x, y, angle, spec, radius) {
 
     setTimeout(() => {
         this.isdead = true
-    }, 0);
+    }, 0.1);
     this.veloX = 0
     this.veloY = 0
 };
