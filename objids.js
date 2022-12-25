@@ -4,7 +4,7 @@ function objidsload() {
 }
 objidsload.prototype = {
     giveid: function (up) {
-        if (objids > 4200000000) {
+        if (objids > Infinity) {
             objids = 1
         }
         var oldid = objids
