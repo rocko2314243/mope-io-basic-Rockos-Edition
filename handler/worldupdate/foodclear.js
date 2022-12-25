@@ -7,6 +7,7 @@ function foodclear(entities, player) {
             case 20://waterberry
             case 50://melon
             case 51://melon
+            case 85://gift
                 if (entities[entities[player].spawnedby2]) {
                     let foodid = entities[player].spawnedby2
                     let randomnumb = util.randomNumber(entities[player].lowestrespawnsec * 1000, entities[player].bigestrespawnsec * 1000)
