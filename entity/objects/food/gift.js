@@ -22,7 +22,7 @@ function gift(id, newid, x, y) {
     this.energy = 20
     this.spawnedby2 = newid
     this.biome = 1
-    this.movable = false
+    this.movable = true
     this.speed = 10
     this.killerid = 0
     this.isinvisible = false
