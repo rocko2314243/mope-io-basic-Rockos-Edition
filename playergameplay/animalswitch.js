@@ -612,27 +612,13 @@ function animalswitcher(player) {
             player.abilitys.button_w_mini = abilitiesswitcher(100);
             break
         //dif
-        case 1://elepohant
+         case 1:
             player.tier = 13
-            player.baserad = 1
-            player.addrad = 0.2
-            player.lessrad = 0.3
-
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 500000;
-
-
-            player.speeds = {
-                landspeed: 4.25,
-                oceanspeed: 3.5,
-                arcticspeed: 4.25,
-                lavaspeed: 3,
-
-            }
-            player.bar.maxairbarpercentage = 20
-            player.abilitys.button_w = abilitiesswitcher(100);
             player.abilitys.button_w_mini = abilitiesswitcher(100);
+            player.nextxp = 10000000;
+
             break
         default:
             player.tier = 14
