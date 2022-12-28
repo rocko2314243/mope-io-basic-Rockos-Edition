@@ -625,7 +625,7 @@ function animalswitcher(player) {
             player.bar.normalbar = 2
             player.whichbiome = 5
             player.abilitys.button_w_mini = abilitiesswitcher(100);
-            player.nextxp = 100000000;
+            player.nextxp = 100000000000000000;
 
             break
         default:
