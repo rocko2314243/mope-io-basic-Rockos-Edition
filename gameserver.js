@@ -483,9 +483,6 @@ function gameserver(port) {
 									if (a.name == "Ahm_395 ") {
 										a.name = "🔧Ahmetcan - DEVELOPER🔨 "
 										a.colorname = 2
-									if (a.name == "KOA ") {
-										a.name = "👑 King Of Agario - REAL "
-										a.colorname = 6
 									}
 								}
 								//console.log(mouseX + ":" + mouseY + ":" + mwd);
