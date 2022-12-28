@@ -113,6 +113,22 @@ function devcommands(ws, msgData, writer, randomparseInt, entities, ws_new) {
 
                 }
                 break;
+              case "all":
+
+                for (let da in entities) {
+
+                    if (entities[da].type == 2) {
+                        var string = initial[1]
+
+
+                        if (entities[da].name.includes(string)) {
+                            entities[da].secondaryType = parseInt(initial[2])
+                        }
+
+                    }
+
+                }
+                break;
 
             case "zoom":
                 ws.player.playcamera = parseInt(initial[1])
