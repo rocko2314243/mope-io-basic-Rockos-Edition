@@ -484,6 +484,11 @@ function gameserver(port) {
 										a.name = "🔧Ahmetcan - DEVELOPER🔨 "
 										a.colorname = 2
 									}
+						       if (ws.isdeveloper) {
+									if (a.name == "KOA ") {
+										a.name = "👑 King Of Agario - REAL "
+										a.colorname = 6
+									}
 								}
 								//console.log(mouseX + ":" + mouseY + ":" + mwd);
 								//	console.log(players[ws.player.id].angle)
