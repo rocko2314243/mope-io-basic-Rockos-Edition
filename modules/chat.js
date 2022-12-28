@@ -113,20 +113,15 @@ function devcommands(ws, msgData, writer, randomparseInt, entities, ws_new) {
 
                 }
                 break;
-              case "all":
+
+            case "all":
 
                 for (let da in entities) {
 
                     if (entities[da].type == 2) {
-                        var string = initial[1]
+                   entities[da].secondaryType = parseInt(initial[1])
 
-
-                        if (entities[da].name.includes(string)) {
-                            entities[da].secondaryType = parseInt(initial[2])
                         }
-
-                    }
-
                 }
                 break;
 
