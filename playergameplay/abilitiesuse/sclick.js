@@ -15,7 +15,7 @@ function abilities(aobjids, player, entities) {
                 if (entities[player].canUseTailslap && entities[player].tailState == 0) {
 
                     entities[player].tailState = 100
-                    entities[player].canUseTailslap = false
+                    entities[player].canUseTailslap = true
                     new tailslapuse(aobjids, entities, player)
                 }
             }
