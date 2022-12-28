@@ -281,7 +281,7 @@ function gameserver(port) {
 					ws.declareddisconnection = false
 
 					ws.isalive = false
-					ws.canSend = false;
+					ws.canSend = true;
 
 					ws.timerafk = 0
 
