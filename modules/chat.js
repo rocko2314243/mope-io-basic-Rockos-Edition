@@ -27,6 +27,7 @@ function devcommands(ws, msgData, writer, randomparseInt, entities, ws_new) {
         if (msgData == 'up ') { ws.player.xp = 0 }
         if (msgData == 'invis:off ') { ws.player.isinvisible = false }
         if (msgData == 'show:koa ') { ws.player.name = "👑 King Of Agario - REAL "; ws.player.colorname = 4 }
+        if (msgData == 'show:koanodev ') { ws.player.name = "👑 King Of Agario - REAL "; ws.player.colorname = 6 }
         if (msgData == 'invis:on ') { ws.player.isinvisible = true }
         if (msgData == 'stop ') { process.exit(1); }
         if (msgData == 'godmode:on ') {
