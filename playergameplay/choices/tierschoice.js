@@ -12,7 +12,9 @@ tiers.prototype = {
         let land = [
             48, 0, 0,
             52, 0, 0,
-            65, 0, 0
+            65, 0, 0,
+            87, 6, 0,
+            1, 0, 0,
         ]
 
         let sea = [
@@ -31,7 +33,6 @@ tiers.prototype = {
 
     },
     tier14: function (isall) {
-        let random = util.randomNumber(0, 2)
 
 
         let lava = [
@@ -53,12 +54,14 @@ tiers.prototype = {
             77, 0, 2,
             77, 0, 12,
             80, 0, 0,
+            85, 0, 0,
         ]
 
         let sea = [
             24, 1, 0,
             24, 1, 1,
             24, 1, 2,
+            83, 1, 0,
 
             61, 1, 0,
             61, 1, 1,
@@ -68,10 +71,9 @@ tiers.prototype = {
             32, 2, 0,
             32, 2, 1,
             32, 2, 2,
+            84, 2, 0,
         ]
-        if (util.isnumbcorrectbetween(0, 1, random) || isall) {
-            land.push(85, 0, 0)
-        }
+  
         let t = [];
         t = t.concat(lava)
         t = t.concat(land)
@@ -81,7 +83,6 @@ tiers.prototype = {
 
     },
     tier15: function (isall) {
-        let random = util.randomNumber(0, 100)
 
         let lava = [
             71, 3, 0,
@@ -91,6 +92,7 @@ tiers.prototype = {
             78, 0, 0,
             78, 0, 1,
             78, 0, 2,
+            76, 0, 0,
         ]
 
         let sea = [
@@ -100,9 +102,6 @@ tiers.prototype = {
             72, 2, 0,
         ]
 
-        if (util.isnumbcorrectbetween(0, 10, random) || isall) {
-            land.push(76, 0, 0)
-        }
         let t = [];
         t = t.concat(lava)
         t = t.concat(land)
