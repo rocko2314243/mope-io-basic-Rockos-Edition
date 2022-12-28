@@ -12,9 +12,6 @@ var t14 = [];
 var t15 = [];
 var t16 = [];
 var tboss = []
-for (var i = 0; i < tier1.length / 3; i++) {
-    t1.push(tier1[i * 3])
-}
 for (var i = 0; i < tier13.length / 3; i++) {
     t13.push(tier13[i * 3])
 }
