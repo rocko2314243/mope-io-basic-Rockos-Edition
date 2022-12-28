@@ -260,7 +260,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                             }
                             
                         if (entities[i].xp >= entities[i].nextxp) {
-                            if (entities[i].tier < 1) {
+                            if (entities[i].tier < 2) {
                                 if (entities[i].xp >= 0) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
