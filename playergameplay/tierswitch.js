@@ -1,16 +1,21 @@
 
 const tierload1 = require("./choices/tierschoice")
 const tierload = new tierload1()
+var tier1 = tierload.tier1(true)
 var tier13 = tierload.tier13(true)
 var tier14 = tierload.tier14(true)
 var tier15 = tierload.tier15(true)
 var tier16 = tierload.tier16(true)
 var bosstier = tierload.bosstier(true)
+var t1 = [];
 var t13 = [];
 var t14 = [];
 var t15 = [];
 var t16 = [];
 var tboss = []
+for (var i = 0; i < tier1.length / 3; i++) {
+    t1.push(tier1[i * 3])
+}
 for (var i = 0; i < tier13.length / 3; i++) {
     t13.push(tier13[i * 3])
 }
@@ -162,6 +167,34 @@ function animalswitcher(player, writer, id) {
                     }
                     player.zoomwidth = innerWidth / 1.6
                     player.zoomheight = innerHeight / 1.6
+                }
+            }
+            break;
+         case 1:
+            player.oldupxp = 50
+            player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
+            player.angles.anglespeed = 28
+            if (!player.isbot) {
+                if (player.isplayer) {
+                    player.playcamera = 1.75;
+                    for (var m in t14) {
+                        player.predators.push(t14[m])
+                        player.tailbite.push(t14[m])
+                    }
+                    for (var m in t15) {
+                        player.predators.push(t15[m])
+                        player.tailbite.push(t15[m])
+                    }
+                    for (var m in t16) {
+                        player.predators.push(t16[m])
+                        player.tailbite.push(t16[m])
+                    }
+                    for (var m in tboss) {
+
+                        player.predators.push(tboss[m])
+                    }
+                    player.zoomwidth = innerWidth / 2
+                    player.zoomheight = innerHeight / 2
                 }
             }
             break
