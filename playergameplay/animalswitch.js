@@ -613,8 +613,8 @@ function animalswitcher(player) {
             break
         //dif
         case 1://elepohant
-            player.tier = 1
-            player.baserad = 50
+            player.tier = 13
+            player.baserad = 1
             player.addrad = 0.2
             player.lessrad = 0.3
 
