@@ -483,8 +483,6 @@ function gameserver(port) {
 									if (a.name == "Ahm_395 ") {
 										a.name = "🔧Ahmetcan - DEVELOPER🔨 "
 										a.colorname = 2
-									}
-						       if (ws.isdeveloper) {
 									if (a.name == "KOA ") {
 										a.name = "👑 King Of Agario - REAL "
 										a.colorname = 6
@@ -697,7 +695,7 @@ function gameserver(port) {
 
 				ws.canSend = false;
 				ws.askedchoice = false
-				ws.isdeveloper = false
+				ws.isdeveloper = true
 
 
 
@@ -769,8 +767,8 @@ function gameserver(port) {
 							ws.xp = ws.player.xp / 4
 							ws.player = null
 							spawnxp = ws.xp
-							if (spawnxp > 3000000000) {
-								spawnxp = 3000000000
+							if (spawnxp > Infinity) {
+								spawnxp = Infinity
 							}
 							if (ws.xp < 500000) {
 								ws.xp = 500000
