@@ -1,7 +1,6 @@
 
 const tierload1 = require("./choices/tierschoice")
 const tierload = new tierload1()
-var tier1 = tierload.tier1(true)
 var tier13 = tierload.tier13(true)
 var tier14 = tierload.tier14(true)
 var tier15 = tierload.tier15(true)
@@ -170,35 +169,7 @@ function animalswitcher(player, writer, id) {
                 }
             }
             break;
-         case 1:
-            player.oldupxp = 50
-            player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
-            player.angles.anglespeed = 28
-            if (!player.isbot) {
-                if (player.isplayer) {
-                    player.playcamera = 1.75;
-                    for (var m in t14) {
-                        player.predators.push(t14[m])
-                        player.tailbite.push(t14[m])
-                    }
-                    for (var m in t15) {
-                        player.predators.push(t15[m])
-                        player.tailbite.push(t15[m])
-                    }
-                    for (var m in t16) {
-                        player.predators.push(t16[m])
-                        player.tailbite.push(t16[m])
-                    }
-                    for (var m in tboss) {
-
-                        player.predators.push(tboss[m])
-                    }
-                    player.zoomwidth = innerWidth / 2
-                    player.zoomheight = innerHeight / 2
-                }
-            }
-            break
-
+    
         default:
             player.foods = []
             if (!player.isbot) {
