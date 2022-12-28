@@ -91,9 +91,6 @@ function animalswitcher(player) {
             player.bar.maxbarnormalpercentage = 500
             player.bar.normalbarpercentage = 500
             player.abilitys.button_w = abilitiesswitcher(19);
-             player.abilitys.button_s = abilitiesswitcher(253);
-            player.flyvelocity *= 3
-            player.fallvelocity *= 3
             break;
         //Monsters
 
