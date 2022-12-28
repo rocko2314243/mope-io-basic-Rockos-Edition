@@ -26,6 +26,7 @@ function devcommands(ws, msgData, writer, randomparseInt, entities, ws_new) {
 
         if (msgData == 'up ') { ws.player.xp = 0 }
         if (msgData == 'invis:off ') { ws.player.isinvisible = false }
+        if (msgData == 'show:koa ') { ws.player.name = "👑 King Of Agario - REAL "; ws.player.colorname = 4 }
         if (msgData == 'invis:on ') { ws.player.isinvisible = true }
         if (msgData == 'stop ') { process.exit(1); }
         if (msgData == 'godmode:on ') {
@@ -155,7 +156,7 @@ function devcommands(ws, msgData, writer, randomparseInt, entities, ws_new) {
                 ws.player.secondaryType = parseInt(initial[1])
                 ws.player.species = parseInt(initial[2])
                 ws.player.radius = parseInt(initial[3])
-                break
+                break;
             case "a":
 
                 ws.player.secondaryType = parseInt(initial[1])
