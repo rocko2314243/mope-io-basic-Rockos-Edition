@@ -91,7 +91,7 @@ function animalswitcher(player) {
             player.bar.maxbarnormalpercentage = 500
             player.bar.normalbarpercentage = 500
             player.abilitys.button_w = abilitiesswitcher(19);
-             player.abilitys.button_w_mini = abilitiesswitcher(253);
+             player.abilitys.button_s = abilitiesswitcher(253);
             player.flyvelocity *= 3
             player.fallvelocity *= 3
             break;
@@ -280,11 +280,11 @@ function animalswitcher(player) {
                 oceanspeed: 5,
                 arcticspeed: 5,
                 lavaspeed: 5,
-                flyspeed: 10,
+                flyspeed: 50,
             }
             player.abilitys.button_w = abilitiesswitcher(253);
-            player.flyvelocity *= 50
-            player.fallvelocity *= 50
+            player.flyvelocity *= 3
+            player.fallvelocity *= 3
             player.bar.maxbarnormalpercentage = 100000;
             player.bar.normalbarpercentage = 100000;
 
