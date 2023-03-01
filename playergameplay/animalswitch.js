@@ -115,6 +115,28 @@ function animalswitcher(player) {
             player.abilitys.button_w = abilitiesswitcher(19);
             player.abilitys.button_w_mini = abilitiesswitcher(253);
             break;
+                        case 90:
+            player.tier = 16
+            player.bar.normalbar = 3
+            player.nextxp = 2150000000;
+
+            player.baserad = 90
+            player.addrad = 0.25
+            player.lessrad = 0.7
+
+
+            player.flags.push(26)
+            player.whichbiome = 6
+            player.speeds = {
+                landspeed: 5.04,
+                oceanspeed: 5.04,
+                arcticspeed: 5.04,
+                lavaspeed: 5.04,
+            }
+            player.bar.maxbarnormalpercentage = 1000
+            player.bar.normalbarpercentage = 1000
+            player.abilitys.button_w = abilitiesswitcher(78);
+            break;
         //Monsters
 
 
@@ -553,7 +575,7 @@ function animalswitcher(player) {
             break
                  case 13://elepohant
             player.tier = 13
-            player.baserad = 10
+            player.baserad = 20
             player.addrad = 0.2
             player.lessrad = 0.3
 
