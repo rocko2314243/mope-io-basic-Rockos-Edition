@@ -180,7 +180,7 @@ function animalswitcher(player) {
             }
             player.bar.maxbarnormalpercentage = 1000
             player.bar.normalbarpercentage = 1000
-            player.abilitys.button_w = abilitiesswitcher(19);
+            player.abilitys.button_w = abilitiesswitcher(11);
             break;
         //Monsters
 
