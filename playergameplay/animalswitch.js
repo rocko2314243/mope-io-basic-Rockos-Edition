@@ -71,9 +71,9 @@ function animalswitcher(player) {
                     break;
 
             }
-            player.tier = 16
+            player.tier = 15
             player.bar.normalbar = 2
-            player.nextxp = 100000000;
+            player.nextxp = 30000000;
 
             player.baserad = 90
             player.addrad = 0.25
