@@ -7,7 +7,7 @@ tiers.prototype = {
     tier13: function (isall) {
 
         let lava = [
-
+         88, 0, 0,
         ]
         let land = [
             48, 0, 0,
