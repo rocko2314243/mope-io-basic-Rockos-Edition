@@ -547,7 +547,9 @@ function animalswitcher(player) {
 
             }
             player.bar.maxairbarpercentage = 30
-            player.abilitys.button_w = abilitiesswitcher(19);
+            player.abilitys.button_w = abilitiesswitcher(253);
+            player.flyvelocity *= 30
+            player.fallvelocity *= 60
             player.abilitys.button_w_mini = abilitiesswitcher(100);
             break
         case 52://giant spider
