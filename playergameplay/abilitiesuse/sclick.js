@@ -8,16 +8,17 @@ const util = new utils1()
 function abilities(aobjids, player, entities) {
     if (entities[player]) {
 
-        if (entities[player].bar.normalbar != 2) {
+        if (entities[player].bar.normalbar != 3) {
 
         } else {
 
-            if (entities[player].secondaryType == 79) {
+            if (entities[player].secondaryType == 89) {
                 if (entities[player].canUseTailslap && entities[player].tailState == 0) {
 
                     entities[player].tailState = 0
                     entities[player].canUseTailslap = true
-                    new tailslapuse(aobjids, entities, player)
+                   // new tailslapuse(aobjids, entities, player)
+                    new thunderabil(entities, player, aobjids, writer, which)
                 }
             }
         }
