@@ -61,6 +61,23 @@ function abilities(aobjids, player, entities, writer, aws_new) {
                                 } else {
                                     new fireuse(aobjids, 0, entities, self.id, self.specType2)
                                 }
+                                
+                                if (self.secondaryType == 89) {
+                                    new fireuse(aobjids, 0, entities, self.id, self.specType2)
+
+                                    new fireuse(aobjids, angle * 2, entities, self.id, self.specType2)
+
+                                    new fireuse(aobjids, -angle * 2, entities, self.id, self.specType2)
+                                       new fireuse(aobjids, angle * 2.5, entities, self.id, self.specType2)
+
+                                    new fireuse(aobjids, -angle * 2.5, entities, self.id, self.specType2)
+                                    new fireuse(aobjids, angle * 3, entities, self.id, self.specType2)
+
+                                    new fireuse(aobjids, -angle * 3, entities, self.id, self.specType2)
+
+                                } else {
+                                    new fireuse(aobjids, 0, entities, self.id, self.specType2)
+                                }
                             }
 
 
