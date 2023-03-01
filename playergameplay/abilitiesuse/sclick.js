@@ -1,5 +1,6 @@
 
 const tailslapuse = require('../../entity/abilitys/kdtailslap')
+const thunderabil = require('../../entity/abilitys/thunderabil')
 
 const utils1 = require("../../modules/IMPmodules/util")
 
