@@ -289,7 +289,7 @@ function gameserver(port) {
 					ws.nameLen = 1
 					ws.name = ' '
 
-					ws.xp = 125000
+					ws.xp = 500000
 
 					ws.camx = util.randomNumber(0, game.load(0))
 					ws.camy = util.randomNumber(0, game.load(1))
@@ -563,7 +563,7 @@ function gameserver(port) {
 										case 13:
 										ws.player.isupgrading = true
 										ws.player.animals = tierload.tier12(false);
-										ws.player.xp = 350000
+										ws.player.xp = 125000
 										ws.send(writer.choice(0, 0, ws.player.animals))
 										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
 
