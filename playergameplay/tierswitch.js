@@ -118,6 +118,10 @@ function animalswitcher(player, writer, id) {
             if (!player.isbot) {
                 if (player.isplayer) {
                     player.playcamera = 1.6;
+                          for (var m in t12) {
+                        player.preys.push(t12[m])
+                        player.tailbite.push(t12[m])
+                    }
                     for (var m in t13) {
                         player.preys.push(t13[m])
                         player.tailbite.push(t13[m])
@@ -149,6 +153,10 @@ function animalswitcher(player, writer, id) {
             if (!player.isbot) {
                 if (player.isplayer) {
                     player.playcamera = 1.75;
+                        or (var m in t12) {
+                        player.preys.push(t12[m])
+                        player.tailbite.push(t12[m])
+                    }
                     for (var m in t14) {
                         player.predators.push(t14[m])
                         player.tailbite.push(t14[m])
