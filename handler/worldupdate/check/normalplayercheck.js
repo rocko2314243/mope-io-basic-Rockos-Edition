@@ -266,7 +266,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier3(false)
+                                    entities[i].animals = tierload.tier2(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
@@ -290,7 +290,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier4(false)
+                                    entities[i].animals = tierload.tier3(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
@@ -314,7 +314,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier5(false)
+                                    entities[i].animals = tierload.tier4(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
@@ -338,7 +338,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier6(false)
+                                    entities[i].animals = tierload.tier5(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
@@ -362,7 +362,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier12(false)
+                                    entities[i].animals = tierload.tier6(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
@@ -386,7 +386,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier13(false)
+                                    entities[i].animals = tierload.tier12(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
