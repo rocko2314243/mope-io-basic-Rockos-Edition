@@ -350,6 +350,7 @@ function animalswitcher(player) {
             player.bar.maxairbarpercentage = 80
             break;
         //Monstersend
+            //253
         case 85:
 
             player.tier = 12
@@ -369,7 +370,7 @@ function animalswitcher(player) {
                 lavaspeed: 5,
                 flyspeed: 50,
             }
-            player.abilitys.button_w = abilitiesswitcher(80 //253);
+            player.abilitys.button_w = abilitiesswitcher(80);
             player.flyvelocity *= 3
             player.fallvelocity *= 3
             player.bar.maxbarnormalpercentage = 100000;
