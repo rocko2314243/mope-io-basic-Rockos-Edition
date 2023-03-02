@@ -28,7 +28,6 @@ tiers.prototype = {
         return t;
 
     },
-tiers.prototype = {
     tier13: function (isall) {
 
         let lava = [
