@@ -664,6 +664,27 @@ function animalswitcher(player) {
             player.bar.maxairbarpercentage = 100
             player.abilitys.button_w = abilitiesswitcher(31);
             break
+                             case 26://hippos
+            player.tier = 13
+            player.baserad = 30
+            player.addrad = 0.1
+            player.lessrad = 0.2
+
+            player.bar.normalbar = 0
+            player.whichbiome = 1
+            player.nextxp = 1000000;
+
+
+            player.speeds = {
+                landspeed: 4.25,
+                oceanspeed: 6,
+                arcticspeed: 3.25,
+                lavaspeed: 4,
+
+            }
+            player.bar.maxairbarpercentage = 100
+            player.abilitys.button_w = abilitiesswitcher(31);
+            break
              case 88://elepohant
             player.tier = 13
             player.baserad = 10
@@ -774,15 +795,27 @@ function animalswitcher(player) {
         //dif
              case 12:
             player.tier = 12
+            player.baserad = 30
+            player.addrad = 0.1
+            player.lessrad = 0.2
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.abilitys.button_w_mini = abilitiesswitcher(31);
+            player.abilitys.button_w = abilitiesswitcher(31);
             player.nextxp = 500000;
-                         case 19:
+                         case 12:
             player.tier = 12
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.abilitys.button_w_mini = abilitiesswitcher(31);
+            player.abilitys.button_w = abilitiesswitcher(31);
+            player.nextxp = 500000;
+                         case 19:
+            player.tier = 12
+               player.baserad = 30
+            player.addrad = 0.1
+            player.lessrad = 0.2
+            player.bar.normalbar = 0
+            player.whichbiome = 1
+            player.abilitys.button_w = abilitiesswitcher(46);
             player.nextxp = 500000;
 
             break
