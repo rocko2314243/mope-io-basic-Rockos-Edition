@@ -352,7 +352,7 @@ function animalswitcher(player) {
         //Monstersend
         case 85:
 
-            player.tier = 14
+            player.tier = 12
             player.bar.normalbar = 0
             player.flags.push(26)
 
@@ -360,7 +360,31 @@ function animalswitcher(player) {
             player.addrad = 0.1
             player.lessrad = 0.2
 
-            player.nextxp = 10000000;
+            player.nextxp = 350000;
+            player.whichbiome = 5
+            player.speeds = {
+                landspeed: 5,
+                oceanspeed: 5,
+                arcticspeed: 5,
+                lavaspeed: 5,
+                flyspeed: 50,
+            }
+            player.abilitys.button_w = abilitiesswitcher(253);
+            player.flyvelocity *= 3
+            player.fallvelocity *= 3
+            player.bar.maxbarnormalpercentage = 100000;
+            player.bar.normalbarpercentage = 100000;
+                    case 56:
+
+            player.tier = 12
+            player.bar.normalbar = 0
+            player.flags.push(26)
+
+            player.baserad = 20
+            player.addrad = 0.1
+            player.lessrad = 0.2
+
+            player.nextxp = 350000;
             player.whichbiome = 5
             player.speeds = {
                 landspeed: 5,
@@ -747,18 +771,18 @@ function animalswitcher(player) {
             player.abilitys.button_w_mini = abilitiesswitcher(100);
             break
         //dif
-         case 1:
-            player.tier = 13
-            player.bar.normalbar = 0
-            player.whichbiome = 0
-            player.abilitys.button_w_mini = abilitiesswitcher(100);
-            player.nextxp = 10000000;
-                     case 6:
-            player.tier = 3
+             case 12:
+            player.tier = 12
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w_mini = abilitiesswitcher(31);
-            player.nextxp = 1000;
+            player.nextxp = 350000;
+                         case 19:
+            player.tier = 12
+            player.bar.normalbar = 0
+            player.whichbiome = 0
+            player.abilitys.button_w_mini = abilitiesswitcher(31);
+            player.nextxp = 350000;
 
             break
            case 87:
