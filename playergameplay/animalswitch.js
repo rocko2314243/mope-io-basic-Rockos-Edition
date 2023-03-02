@@ -638,7 +638,6 @@ function animalswitcher(player) {
             }
             player.bar.maxairbarpercentage = 100
             player.abilitys.button_w = abilitiesswitcher(31);
-            player.abilitys.button_w_mini = abilitiesswitcher(100);
             break
              case 88://elepohant
             player.tier = 13
@@ -762,7 +761,7 @@ function animalswitcher(player) {
             player.whichbiome = 5
             player.abilitys.button_w_mini = abilitiesswitcher(100);
             player.abilitys.button_w = abilitiesswitcher(3);
-            player.nextxp = 100000000000000000;
+            player.nextxp = 2147483647;
 
             break
         default:
