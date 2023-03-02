@@ -821,7 +821,7 @@ function animalswitcher(player) {
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(31);
-            player.nextxp = 200;
+            player.nextxp = 500;
             break
                                      case 3:
             player.tier = 3
@@ -831,7 +831,7 @@ function animalswitcher(player) {
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(31);
-            player.nextxp = 500;
+            player.nextxp = 1000;
             break
                                                  case 4:
             player.tier = 4
@@ -841,7 +841,7 @@ function animalswitcher(player) {
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(31);
-            player.nextxp = 1000;
+            player.nextxp = 2000;
             break
                                                  case 5:
             player.tier = 5
@@ -851,7 +851,7 @@ function animalswitcher(player) {
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(31);
-            player.nextxp = 2000;
+            player.nextxp = 5000;
             break
                                                  case 6:
             player.tier = 6
@@ -861,7 +861,7 @@ function animalswitcher(player) {
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(31);
-            player.nextxp = 5000;
+            player.nextxp = 125000;
             break
                          case 19:
             player.tier = 12
