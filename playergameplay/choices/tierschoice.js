@@ -42,6 +42,7 @@ tiers.prototype = {
 
         let sea = [
             49, 7, 0,
+             26, 1, 0,
         ]
         let ice = [
         ]
