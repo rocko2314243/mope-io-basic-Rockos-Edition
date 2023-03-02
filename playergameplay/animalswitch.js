@@ -95,7 +95,7 @@ function animalswitcher(player) {
             case 89:
             player.tier = 16
             player.bar.normalbar = 3
-            player.nextxp = 2150000000;
+            player.nextxp = 2147483647;
 
             player.baserad = 90
             player.addrad = 0.25
@@ -118,7 +118,7 @@ function animalswitcher(player) {
                         case 90:
             player.tier = 16
             player.bar.normalbar = 3
-            player.nextxp = 2150000000;
+            player.nextxp = 2147483647;
 
             player.baserad = 90
             player.addrad = 0.25
@@ -140,7 +140,7 @@ function animalswitcher(player) {
              case 89:
             player.tier = 16
             player.bar.normalbar = 3
-            player.nextxp = 2150000000;
+            player.nextxp = 2147483647;
 
             player.baserad = 90
             player.addrad = 0.25
@@ -163,7 +163,7 @@ function animalswitcher(player) {
                         case 91:
             player.tier = 16
             player.bar.normalbar = 3
-            player.nextxp = 2150000000;
+            player.nextxp = 2147483647;
 
             player.baserad = 90
             player.addrad = 0.25
