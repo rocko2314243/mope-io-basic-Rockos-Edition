@@ -4,6 +4,137 @@ function tiers() {
     this.a = 0
 }
 tiers.prototype = {
+         tier1: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            1, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
+         tier2: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            2, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
+         tier3: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            3, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
+         tier4: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            4, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
+     tier5: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            5, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
+     tier6: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            6, 0, 0,
+        ]
+
+        let sea = [
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
     tier12: function (isall) {
 
         let lava = [
