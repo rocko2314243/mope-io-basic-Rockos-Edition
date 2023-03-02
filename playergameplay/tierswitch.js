@@ -153,7 +153,7 @@ function animalswitcher(player, writer, id) {
             if (!player.isbot) {
                 if (player.isplayer) {
                     player.playcamera = 1.75;
-                        or (var m in t12) {
+                        for (var m in t12) {
                         player.preys.push(t12[m])
                         player.tailbite.push(t12[m])
                     }
@@ -179,13 +179,13 @@ function animalswitcher(player, writer, id) {
             }
             break;
       case 12:
-            player.oldupxp = 350000
+            player.oldupxp = 500000
             player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
             player.angles.anglespeed = 28
             if (!player.isbot) {
                 if (player.isplayer) {
                     player.playcamera = 1.75;
-                          for (var m in t13) {
+                       for (var m in t13) {
                         player.predators.push(t13[m])
                         player.tailbite.push(t13[m])
                     }
