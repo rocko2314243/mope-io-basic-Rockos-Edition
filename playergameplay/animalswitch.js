@@ -360,7 +360,7 @@ function animalswitcher(player) {
             player.addrad = 0.1
             player.lessrad = 0.2
 
-            player.nextxp = 350000;
+            player.nextxp = 500000;
             player.whichbiome = 5
             player.speeds = {
                 landspeed: 5,
@@ -369,7 +369,7 @@ function animalswitcher(player) {
                 lavaspeed: 5,
                 flyspeed: 50,
             }
-            player.abilitys.button_w = abilitiesswitcher(253);
+            player.abilitys.button_w = abilitiesswitcher(80 //253);
             player.flyvelocity *= 3
             player.fallvelocity *= 3
             player.bar.maxbarnormalpercentage = 100000;
@@ -384,7 +384,7 @@ function animalswitcher(player) {
             player.addrad = 0.1
             player.lessrad = 0.2
 
-            player.nextxp = 350000;
+            player.nextxp = 500000;
             player.whichbiome = 5
             player.speeds = {
                 landspeed: 5,
@@ -393,7 +393,7 @@ function animalswitcher(player) {
                 lavaspeed: 5,
                 flyspeed: 50,
             }
-            player.abilitys.button_w = abilitiesswitcher(253);
+            player.abilitys.button_w = abilitiesswitcher(80);
             player.flyvelocity *= 3
             player.fallvelocity *= 3
             player.bar.maxbarnormalpercentage = 100000;
@@ -776,13 +776,13 @@ function animalswitcher(player) {
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w_mini = abilitiesswitcher(31);
-            player.nextxp = 350000;
+            player.nextxp = 500000;
                          case 19:
             player.tier = 12
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w_mini = abilitiesswitcher(31);
-            player.nextxp = 350000;
+            player.nextxp = 500000;
 
             break
            case 87:
