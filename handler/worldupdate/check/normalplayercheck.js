@@ -236,7 +236,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
 
 
                         if (entities[i].xp >= entities[i].nextxp) {
-                               if (entities[i].tier < 2) {
+                               if (entities[i].tier < 3) {
 
                                 if (entities[i].xp >= 50) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
@@ -260,7 +260,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     }
                                 }
                             }
-                               if (entities[i].tier < 3) {
+                               if (entities[i].tier < 4) {
 
                                 if (entities[i].xp >= 100) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
@@ -284,7 +284,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     }
                                 }
                             }
-                               if (entities[i].tier < 4) {
+                               if (entities[i].tier < 5) {
 
                                 if (entities[i].xp >= 1000) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
@@ -308,7 +308,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     }
                                 }
                             }
-                               if (entities[i].tier < 5) {
+                               if (entities[i].tier < 6) {
 
                                 if (entities[i].xp >= 2000) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
@@ -332,7 +332,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     }
                                 }
                             }
-                               if (entities[i].tier < 6) {
+                               if (entities[i].tier < 7) {
 
                                 if (entities[i].xp >= 5000) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
