@@ -1,6 +1,10 @@
 
 const tierload1 = require("./choices/tierschoice")
 const tierload = new tierload1()
+//var tier1 = tierload.tier1(true)
+//var tier2 = tierload.tier2(true)
+//var tier3 = tierload.tier3(true)
+var tier12 = tierload.tier12(true)
 var tier12 = tierload.tier12(true)
 var tier13 = tierload.tier13(true)
 var tier14 = tierload.tier14(true)
@@ -14,7 +18,7 @@ var t15 = [];
 var t16 = [];
 var tboss = []
 for (var i = 0; i < tier12.length / 3; i++) {
-    t13.push(tier12[i * 3])
+    t12.push(tier12[i * 3])
 }
 for (var i = 0; i < tier13.length / 3; i++) {
     t13.push(tier13[i * 3])
@@ -179,7 +183,7 @@ function animalswitcher(player, writer, id) {
             }
             break;
       case 12:
-            player.oldupxp = 500000
+            player.oldupxp = 125000
             player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
             player.angles.anglespeed = 28
             if (!player.isbot) {
