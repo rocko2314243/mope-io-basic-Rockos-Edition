@@ -802,12 +802,67 @@ function animalswitcher(player) {
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(31);
             player.nextxp = 500000;
-                         case 12:
-            player.tier = 12
+            break
+                         case 1:
+            player.tier = 1
+            player.baserad = 0
+            player.addrad = 0.1
+            player.lessrad = 0.3
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(31);
-            player.nextxp = 500000;
+            player.nextxp = 50;
+            break
+                                     case 2:
+            player.tier = 2
+            player.baserad = 0
+            player.addrad = 0.1
+            player.lessrad = 0.3
+            player.bar.normalbar = 0
+            player.whichbiome = 0
+            player.abilitys.button_w = abilitiesswitcher(31);
+            player.nextxp = 200;
+            break
+                                     case 3:
+            player.tier = 3
+            player.baserad = 0
+            player.addrad = 0.1
+            player.lessrad = 0.3
+            player.bar.normalbar = 0
+            player.whichbiome = 0
+            player.abilitys.button_w = abilitiesswitcher(31);
+            player.nextxp = 500;
+            break
+                                                 case 4:
+            player.tier = 4
+            player.baserad = 0
+            player.addrad = 0.1
+            player.lessrad = 0.3
+            player.bar.normalbar = 0
+            player.whichbiome = 0
+            player.abilitys.button_w = abilitiesswitcher(31);
+            player.nextxp = 1000;
+            break
+                                                 case 5:
+            player.tier = 5
+            player.baserad = 0
+            player.addrad = 0.1
+            player.lessrad = 0.3
+            player.bar.normalbar = 0
+            player.whichbiome = 0
+            player.abilitys.button_w = abilitiesswitcher(31);
+            player.nextxp = 2000;
+            break
+                                                 case 6:
+            player.tier = 6
+            player.baserad = 0
+            player.addrad = 0.1
+            player.lessrad = 0.3
+            player.bar.normalbar = 0
+            player.whichbiome = 0
+            player.abilitys.button_w = abilitiesswitcher(31);
+            player.nextxp = 5000;
+            break
                          case 19:
             player.tier = 12
                player.baserad = 30
