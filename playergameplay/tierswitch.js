@@ -7,6 +7,11 @@ var tier3 = tierload.tier3(true)
 var tier4 = tierload.tier4(true)
 var tier5 = tierload.tier5(true)
 var tier6 = tierload.tier6(true)
+//var tier7 = tierload.tier7(true)
+//var tier8 = tierload.tier8(true)
+//var tier9 = tierload.tier9(true)
+//var tier10 = tierload.tier10(true)
+//var tier11 = tierload.tier11(true)
 var tier12 = tierload.tier12(true)
 var tier12 = tierload.tier12(true)
 var tier13 = tierload.tier13(true)
@@ -14,14 +19,38 @@ var tier14 = tierload.tier14(true)
 var tier15 = tierload.tier15(true)
 var tier16 = tierload.tier16(true)
 var bosstier = tierload.bosstier(true)
+var t1 = [];
+var t2 = [];
+var t3 = [];
+var t4 = [];
+var t5 = [];
+var t6 = [];
 var t12 = [];
 var t13 = [];
 var t14 = [];
 var t15 = [];
 var t16 = [];
 var tboss = []
-for (var i = 0; i < tier12.length / 3; i++) {
-    t12.push(tier12[i * 3])
+for (var i = 0; i < tier1.length / 3; i++) {
+    t1.push(tier1[i * 3])
+}
+for (var i = 0; i < tier2.length / 3; i++) {
+    t2.push(tier2[i * 3])
+}
+for (var i = 0; i < tier2.length / 3; i++) {
+    t2.push(tier2[i * 3])
+}
+for (var i = 0; i < tier3.length / 3; i++) {
+    t3.push(tier3[i * 3])
+}
+for (var i = 0; i < tier4.length / 3; i++) {
+    t4.push(tier4[i * 3])
+}
+for (var i = 0; i < tier5.length / 3; i++) {
+    t5.push(tier5[i * 3])
+}
+for (var i = 0; i < tier6.length / 3; i++) {
+    t6.push(tier6[i * 3])
 }
 for (var i = 0; i < tier12.length / 3; i++) {
     t12.push(tier12[i * 3])
