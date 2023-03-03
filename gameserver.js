@@ -481,7 +481,7 @@ function gameserver(port) {
 								var a = new player(ws, id, pos, truename);
 								if (ws.isdeveloper) {
 									if (a.name == "Ahm_395 ") {
-										a.name = "🔧Ahmetcan - DEVELOPER🔨 "
+										a.name = "🔧Vitamin C - DEV🔨 "
 										a.colorname = 2
 									}
 								}
