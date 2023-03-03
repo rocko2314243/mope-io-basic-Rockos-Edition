@@ -135,6 +135,116 @@ tiers.prototype = {
         return t;
 
     },
+     tier7: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            7, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
+     tier8: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            8, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
+     tier9: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            9, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
+     tier10: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            10, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
+     tier11: function (isall) {
+
+        let lava = [
+        ]
+        let land = [
+            11, 0, 0,
+        ]
+
+        let sea = [
+
+        ]
+        let ice = [
+        ]
+
+        let t = [];
+        t = t.concat(lava)
+        t = t.concat(land)
+        t = t.concat(sea)
+        t = t.concat(ice)
+        return t;
+
+    },
     tier12: function (isall) {
 
         let lava = [
