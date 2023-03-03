@@ -361,19 +361,6 @@ function animalswitcher(player, writer, id) {
                 }
             }
             break;
-                                          case 7:
-            player.oldupxp = 5000
-            player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
-            player.angles.anglespeed = 28
-            if (!player.isbot) {
-                if (player.isplayer) {
-                    player.playcamera = 1.75;
-                   
-                    player.zoomwidth = innerWidth / 1.3
-                    player.zoomheight = innerHeight / 1.3
-                }
-            }
-            break;
                                           case 8:
             player.oldupxp = 12000
             player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
