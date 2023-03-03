@@ -290,7 +290,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier3(false)
+                                    entities[i].animals = tierload.tier4(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
@@ -338,7 +338,127 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier5(false)
+                                    entities[i].animals = tierload.tier6(false)
+                                    if (game.load(2) == 1) {
+                                        entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
+                                    } else {
+                                        entities[i].ws.send(writer.choice(0, game.load(5), entities[i].animals))
+                                        setTimeout(() => {
+                                            if (entities[i] != undefined) {
+                                                if (entities[i].choiceid != ider) return;
+                                                entities[i].ws.send(writer.choice(5, 0, []))
+
+                                                entities[i].secondaryType = entities[i].animals[0]
+                                                new apexchoices(entities[i], 0, entities[i].animals, 0, entities, false)
+                                            }
+
+                                        }, game.load(5) * 1000);
+                                    }
+                                }
+                            }
+                                                           if (entities[i].tier < 7) {
+
+                                if (entities[i].xp >= 8000) {
+                                    entities[i].choiceid = util.randomIntNumber(0, 999999999999)
+                                    let ider = entities[i].choiceid
+                                    entities[i].isupgrading = true
+                                    entities[i].animals = tierload.tier7(false)
+                                    if (game.load(2) == 1) {
+                                        entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
+                                    } else {
+                                        entities[i].ws.send(writer.choice(0, game.load(5), entities[i].animals))
+                                        setTimeout(() => {
+                                            if (entities[i] != undefined) {
+                                                if (entities[i].choiceid != ider) return;
+                                                entities[i].ws.send(writer.choice(5, 0, []))
+
+                                                entities[i].secondaryType = entities[i].animals[0]
+                                                new apexchoices(entities[i], 0, entities[i].animals, 0, entities, false)
+                                            }
+
+                                        }, game.load(5) * 1000);
+                                    }
+                                }
+                            }
+                                                           if (entities[i].tier < 8) {
+
+                                if (entities[i].xp >= 12000) {
+                                    entities[i].choiceid = util.randomIntNumber(0, 999999999999)
+                                    let ider = entities[i].choiceid
+                                    entities[i].isupgrading = true
+                                    entities[i].animals = tierload.tier8(false)
+                                    if (game.load(2) == 1) {
+                                        entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
+                                    } else {
+                                        entities[i].ws.send(writer.choice(0, game.load(5), entities[i].animals))
+                                        setTimeout(() => {
+                                            if (entities[i] != undefined) {
+                                                if (entities[i].choiceid != ider) return;
+                                                entities[i].ws.send(writer.choice(5, 0, []))
+
+                                                entities[i].secondaryType = entities[i].animals[0]
+                                                new apexchoices(entities[i], 0, entities[i].animals, 0, entities, false)
+                                            }
+
+                                        }, game.load(5) * 1000);
+                                    }
+                                }
+                            }
+                                                           if (entities[i].tier < 9) {
+
+                                if (entities[i].xp >= 30000) {
+                                    entities[i].choiceid = util.randomIntNumber(0, 999999999999)
+                                    let ider = entities[i].choiceid
+                                    entities[i].isupgrading = true
+                                    entities[i].animals = tierload.tier9(false)
+                                    if (game.load(2) == 1) {
+                                        entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
+                                    } else {
+                                        entities[i].ws.send(writer.choice(0, game.load(5), entities[i].animals))
+                                        setTimeout(() => {
+                                            if (entities[i] != undefined) {
+                                                if (entities[i].choiceid != ider) return;
+                                                entities[i].ws.send(writer.choice(5, 0, []))
+
+                                                entities[i].secondaryType = entities[i].animals[0]
+                                                new apexchoices(entities[i], 0, entities[i].animals, 0, entities, false)
+                                            }
+
+                                        }, game.load(5) * 1000);
+                                    }
+                                }
+                            }
+                                                           if (entities[i].tier < 10) {
+
+                                if (entities[i].xp >= 60000) {
+                                    entities[i].choiceid = util.randomIntNumber(0, 999999999999)
+                                    let ider = entities[i].choiceid
+                                    entities[i].isupgrading = true
+                                    entities[i].animals = tierload.tier10(false)
+                                    if (game.load(2) == 1) {
+                                        entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
+                                    } else {
+                                        entities[i].ws.send(writer.choice(0, game.load(5), entities[i].animals))
+                                        setTimeout(() => {
+                                            if (entities[i] != undefined) {
+                                                if (entities[i].choiceid != ider) return;
+                                                entities[i].ws.send(writer.choice(5, 0, []))
+
+                                                entities[i].secondaryType = entities[i].animals[0]
+                                                new apexchoices(entities[i], 0, entities[i].animals, 0, entities, false)
+                                            }
+
+                                        }, game.load(5) * 1000);
+                                    }
+                                }
+                            }
+                                                           if (entities[i].tier < 11) {
+
+                                if (entities[i].xp >= 80000) {
+                                    entities[i].choiceid = util.randomIntNumber(0, 999999999999)
+                                    let ider = entities[i].choiceid
+                                    entities[i].isupgrading = true
+                                    entities[i].animals = tierload.tier11(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
@@ -362,7 +482,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier6(false)
+                                    entities[i].animals = tierload.tier12(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
@@ -386,7 +506,7 @@ function normalplayercheck(aobjids, ws_new, entities, i, writer) {
                                     entities[i].choiceid = util.randomIntNumber(0, 999999999999)
                                     let ider = entities[i].choiceid
                                     entities[i].isupgrading = true
-                                    entities[i].animals = tierload.tier12(false)
+                                    entities[i].animals = tierload.tier13(false)
                                     if (game.load(2) == 1) {
                                         entities[i].ws.send(writer.choice(0, 0, entities[i].animals))
                                     } else {
