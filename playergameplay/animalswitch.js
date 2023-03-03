@@ -872,6 +872,51 @@ function animalswitcher(player) {
             player.whichbiome = 1
             player.abilitys.button_w = abilitiesswitcher(46);
             player.nextxp = 500000;
+                                     case 11:
+            player.tier = 11
+               player.baserad = 30
+            player.addrad = 0.1
+            player.lessrad = 0.2
+            player.bar.normalbar = 0
+            player.whichbiome = 1
+            player.abilitys.button_w = abilitiesswitcher(46);
+            player.nextxp = 125000;
+                                     case 10:
+            player.tier = 10
+               player.baserad = 30
+            player.addrad = 0.1
+            player.lessrad = 0.2
+            player.bar.normalbar = 0
+            player.whichbiome = 1
+            player.abilitys.button_w = abilitiesswitcher(46);
+            player.nextxp = 80000;
+                                     case 9:
+            player.tier = 9
+               player.baserad = 30
+            player.addrad = 0.1
+            player.lessrad = 0.2
+            player.bar.normalbar = 0
+            player.whichbiome = 1
+            player.abilitys.button_w = abilitiesswitcher(46);
+            player.nextxp = 60000;
+                                     case 8:
+            player.tier = 8
+               player.baserad = 30
+            player.addrad = 0.1
+            player.lessrad = 0.2
+            player.bar.normalbar = 0
+            player.whichbiome = 1
+            player.abilitys.button_w = abilitiesswitcher(46);
+            player.nextxp = 30000;
+                                                 case 7:
+            player.tier = 7
+               player.baserad = 30
+            player.addrad = 0.1
+            player.lessrad = 0.2
+            player.bar.normalbar = 0
+            player.whichbiome = 1
+            player.abilitys.button_w = abilitiesswitcher(46);
+            player.nextxp = 12000;
 
             break
            case 87:
