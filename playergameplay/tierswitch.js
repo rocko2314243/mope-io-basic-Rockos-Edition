@@ -7,11 +7,11 @@ var tier3 = tierload.tier3(true)
 var tier4 = tierload.tier4(true)
 var tier5 = tierload.tier5(true)
 var tier6 = tierload.tier6(true)
-//var tier7 = tierload.tier7(true)
-//var tier8 = tierload.tier8(true)
-//var tier9 = tierload.tier9(true)
-//var tier10 = tierload.tier10(true)
-//var tier11 = tierload.tier11(true)
+var tier7 = tierload.tier7(true)
+var tier8 = tierload.tier8(true)
+var tier9 = tierload.tier9(true)
+var tier10 = tierload.tier10(true)
+var tier11 = tierload.tier11(true)
 var tier12 = tierload.tier12(true)
 var tier12 = tierload.tier12(true)
 var tier13 = tierload.tier13(true)
@@ -25,6 +25,11 @@ var t3 = [];
 var t4 = [];
 var t5 = [];
 var t6 = [];
+var t7 = [];
+var t8 = [];
+var t9 = [];
+var t10 = [];
+var t11 = [];
 var t12 = [];
 var t13 = [];
 var t14 = [];
@@ -52,6 +57,22 @@ for (var i = 0; i < tier5.length / 3; i++) {
 for (var i = 0; i < tier6.length / 3; i++) {
     t6.push(tier6[i * 3])
 }
+for (var i = 0; i < tier7.length / 3; i++) {
+    t7.push(tier7[i * 3])
+}
+for (var i = 0; i < tier8.length / 3; i++) {
+    t8.push(tier8[i * 3])
+}
+for (var i = 0; i < tier9.length / 3; i++) {
+    t9.push(tier9[i * 3])
+}
+for (var i = 0; i < tier10.length / 3; i++) {
+    t10.push(tier10[i * 3])
+}
+for (var i = 0; i < tier11.length / 3; i++) {
+    t11.push(tier11[i * 3])
+}
+
 for (var i = 0; i < tier12.length / 3; i++) {
     t12.push(tier12[i * 3])
 }
@@ -329,6 +350,71 @@ function animalswitcher(player, writer, id) {
             break;
                               case 7:
             player.oldupxp = 5000
+            player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
+            player.angles.anglespeed = 28
+            if (!player.isbot) {
+                if (player.isplayer) {
+                    player.playcamera = 1.75;
+                   
+                    player.zoomwidth = innerWidth / 1.3
+                    player.zoomheight = innerHeight / 1.3
+                }
+            }
+            break;
+                                          case 7:
+            player.oldupxp = 5000
+            player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
+            player.angles.anglespeed = 28
+            if (!player.isbot) {
+                if (player.isplayer) {
+                    player.playcamera = 1.75;
+                   
+                    player.zoomwidth = innerWidth / 1.3
+                    player.zoomheight = innerHeight / 1.3
+                }
+            }
+            break;
+                                          case 8:
+            player.oldupxp = 8000
+            player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
+            player.angles.anglespeed = 28
+            if (!player.isbot) {
+                if (player.isplayer) {
+                    player.playcamera = 1.75;
+                   
+                    player.zoomwidth = innerWidth / 1.3
+                    player.zoomheight = innerHeight / 1.3
+                }
+            }
+            break;
+                                          case 9:
+            player.oldupxp = 12000
+            player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
+            player.angles.anglespeed = 28
+            if (!player.isbot) {
+                if (player.isplayer) {
+                    player.playcamera = 1.75;
+                   
+                    player.zoomwidth = innerWidth / 1.3
+                    player.zoomheight = innerHeight / 1.3
+                }
+            }
+            break;
+                                          case 10:
+            player.oldupxp = 60000
+            player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
+            player.angles.anglespeed = 28
+            if (!player.isbot) {
+                if (player.isplayer) {
+                    player.playcamera = 1.75;
+                   
+                    player.zoomwidth = innerWidth / 1.3
+                    player.zoomheight = innerHeight / 1.3
+                }
+            }
+            break;
+                                          case 11:
+            player.oldupxp = 80000
             player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
             player.angles.anglespeed = 28
             if (!player.isbot) {
