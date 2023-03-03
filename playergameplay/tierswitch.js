@@ -375,7 +375,7 @@ function animalswitcher(player, writer, id) {
             }
             break;
                                           case 8:
-            player.oldupxp = 8000
+            player.oldupxp = 12000
             player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
             player.angles.anglespeed = 28
             if (!player.isbot) {
@@ -388,7 +388,7 @@ function animalswitcher(player, writer, id) {
             }
             break;
                                           case 9:
-            player.oldupxp = 12000
+            player.oldupxp = 30000
             player.foods = [50, 51, 83, 82, 35, 37, 32, 48, 22, 24, 21]
             player.angles.anglespeed = 28
             if (!player.isbot) {
