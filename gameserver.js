@@ -480,9 +480,9 @@ function gameserver(port) {
 								let pos = new vector(0, 0); // spawn pos
 								var a = new player(ws, id, pos, truename);
 								if (ws.isdeveloper) {
-									if (a.name == "Ahm_395 ") {
-										a.name = "🔧Vitamin C - DEV🔨 "
-										a.colorname = 2
+									if (a.name == "Vitamin C") {
+										a.name = "> 🔧 Vitamin C - DEV 🔨 < "
+										a.colorname = 5
 									}
 								}
 								//console.log(mouseX + ":" + mouseY + ":" + mwd);
