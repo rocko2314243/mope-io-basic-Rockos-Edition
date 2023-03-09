@@ -855,8 +855,8 @@ function gameserver(port) {
 
 						}
 						ws.player.score = ws.player.xp
-						if (ws.player.score > 3000000000) {
-							ws.player.score = 3000000000
+						if (ws.player.score > Infinity) {
+							ws.player.score = Infinity
 						}
 						if (ws.player.score < 0) {
 							ws.player.score = 0
