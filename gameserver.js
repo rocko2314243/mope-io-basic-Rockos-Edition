@@ -289,7 +289,7 @@ function gameserver(port) {
 					ws.nameLen = 1
 					ws.name = ' '
 
-					ws.xp = 500000
+					ws.xp = 0
 
 					ws.camx = util.randomNumber(0, game.load(0))
 					ws.camy = util.randomNumber(0, game.load(1))
@@ -347,7 +347,7 @@ function gameserver(port) {
 					ws.todelete = []
 
 
-					ws.animals = tierload.tier13(false)
+					ws.animals = tierload.tier2(false)
 
 					self.ws_new[ws.id] = ws
 					var p = setInterval(() => {
@@ -572,6 +572,33 @@ function gameserver(port) {
 									    case 12:
 										ws.player.isupgrading = true
 										ws.player.animals = tierload.tier11(false);
+										ws.player.xp = 80000
+										ws.send(writer.choice(0, 0, ws.player.animals))
+										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
+
+
+										break
+								          case 2:
+										ws.player.isupgrading = true
+										ws.player.animals = tierload.tier2(false);
+										ws.player.xp = 50
+										ws.send(writer.choice(0, 0, ws.player.animals))
+										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
+
+
+										break
+								 case 1:
+										ws.player.isupgrading = true
+										ws.player.animals = tierload.tier1(false);
+										ws.player.xp = 0
+										ws.send(writer.choice(0, 0, ws.player.animals))
+										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
+
+
+										break
+																	          case 11:
+										ws.player.isupgrading = true
+										ws.player.animals = tierload.tier10(false);
 										ws.player.xp = 80000
 										ws.send(writer.choice(0, 0, ws.player.animals))
 										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
