@@ -890,6 +890,15 @@ function animalswitcher(player) {
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(46);
             player.nextxp = 125000;
+                                                 case 10:
+            player.tier = 10
+               player.baserad = 30
+            player.addrad = 0.1
+            player.lessrad = 0.2
+            player.bar.normalbar = 0
+            player.whichbiome = 0
+            player.abilitys.button_w = abilitiesswitcher(46);
+            player.nextxp = 8000;
 
             break
            case 87:
@@ -902,7 +911,7 @@ function animalswitcher(player) {
 
             break
         default:
-            player.tier = 11
+            player.tier = 1
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w_mini = abilitiesswitcher(100);
