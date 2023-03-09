@@ -569,7 +569,7 @@ function gameserver(port) {
 
 
 										break
-											case 12:
+									    case 12:
 										ws.player.isupgrading = true
 										ws.player.animals = tierload.tier11(false);
 										ws.player.xp = 80000
@@ -578,6 +578,7 @@ function gameserver(port) {
 
 
 										break
+								}
 
 
 							}
