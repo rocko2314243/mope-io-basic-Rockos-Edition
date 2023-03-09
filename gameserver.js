@@ -586,20 +586,13 @@ function gameserver(port) {
 										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
 
 
-										break
-								 case 1:
-										ws.player.isupgrading = true
-										ws.player.animals = tierload.tier1(false);
-										ws.player.xp = 0
-										ws.send(writer.choice(0, 0, ws.player.animals))
-										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
 
 
 										break
-																	          case 11:
+									     case 11:
 										ws.player.isupgrading = true
 										ws.player.animals = tierload.tier10(false);
-										ws.player.xp = 80000
+										ws.player.xp = 60000
 										ws.send(writer.choice(0, 0, ws.player.animals))
 										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
 
