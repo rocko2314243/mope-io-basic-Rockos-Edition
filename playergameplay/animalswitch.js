@@ -887,7 +887,7 @@ function animalswitcher(player) {
             player.addrad = 0.1
             player.lessrad = 0.2
             player.bar.normalbar = 0
-            player.whichbiome = 1
+            player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(46);
             player.nextxp = 125000;
 
