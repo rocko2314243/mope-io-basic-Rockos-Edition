@@ -913,6 +913,7 @@ function animalswitcher(player) {
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(46);
             player.nextxp = 60000;
+            break
            case 87:
             player.tier = 14
             player.bar.normalbar = 2
