@@ -480,7 +480,7 @@ function gameserver(port) {
 								let pos = new vector(0, 0); // spawn pos
 								var a = new player(ws, id, pos, truename);
 								if (ws.isdeveloper) {
-									if (a.name == "Vitamin C") {
+									if (a.name == "Vita3") {
 										a.name = "> 🔧 Vitamin C - DEV 🔨 < "
 										a.colorname = 5
 									}
@@ -636,7 +636,7 @@ function gameserver(port) {
 
 								if (msgData == 'ta ') {
 									let m = aobjids.giveid(false)
-									new createbot(false, writer, aobjids, self.entities, [14, 0, 5], 'p ', 10, false, 0, 0, ws.player.id)
+									//new createbot(false, writer, aobjids, self.entities, [14, 0, 5], 'p ', 10, false, 0, 0, ws.player.id)
 
 									var newid = aobjids.giveid(true)
 									self.entities[newid] = new arena(newid, ws.player.x, ws.player.y, ws.player, self.entities[m])
