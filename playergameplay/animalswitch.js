@@ -898,7 +898,7 @@ function animalswitcher(player) {
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w = abilitiesswitcher(46);
-            player.nextxp = 8000;
+            player.nextxp = 80000;
 
             break
            case 87:
