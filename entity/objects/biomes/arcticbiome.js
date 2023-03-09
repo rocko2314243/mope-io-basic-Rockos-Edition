@@ -13,7 +13,7 @@ function arcticbiome(id, game) {
 
     this.radius = 1
     this.angleupd = false
-    this.isbiome = true;
+    this.isbiome = false;
 
     this.nameLen = 0
     this.species = 0;
