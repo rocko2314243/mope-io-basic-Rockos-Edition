@@ -578,10 +578,32 @@ function gameserver(port) {
 
 
 										break
-								          case 2:
+								          case 1:
 										ws.player.isupgrading = true
 										ws.player.animals = tierload.tier2(false);
 										ws.player.xp = 50
+										ws.send(writer.choice(0, 0, ws.player.animals))
+										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
+
+
+
+
+										break
+																		          case 2:
+										ws.player.isupgrading = true
+										ws.player.animals = tierload.tier3(false);
+										ws.player.xp = 100
+										ws.send(writer.choice(0, 0, ws.player.animals))
+										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
+
+
+
+
+										break
+							                    case 3:
+										ws.player.isupgrading = true
+										ws.player.animals = tierload.tier4(false);
+										ws.player.xp = 500
 										ws.send(writer.choice(0, 0, ws.player.animals))
 										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
 
@@ -593,6 +615,15 @@ function gameserver(port) {
 										ws.player.isupgrading = true
 										ws.player.animals = tierload.tier10(false);
 										ws.player.xp = 60000
+										ws.send(writer.choice(0, 0, ws.player.animals))
+										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
+
+
+										break
+								     case 10:
+										ws.player.isupgrading = true
+										ws.player.animals = tierload.tier9(false);
+										ws.player.xp = 35000
 										ws.send(writer.choice(0, 0, ws.player.animals))
 										ws.player.choiceid = util.randomIntNumber(0, 999999999999)
 
