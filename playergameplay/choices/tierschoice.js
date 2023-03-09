@@ -2,6 +2,8 @@ const utils1 = require("../../modules/IMPmodules/util")
 const util = new utils1()
 function tiers() {
     this.a = 0
+    }
+tiers.prototype = {
      tier11: function (isall) {
 
         let lava = [
