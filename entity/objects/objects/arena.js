@@ -15,7 +15,7 @@ function arena(id, x, y, p1, p2) {
     this.angleupd = false;
     this.isbiome = false;
     this.specType2 = 0
-    this.is1v1 = false
+//    this.is1v1 = false
     this.specType = 0;
     this.secondaryType = 68
     this.type = 14; //object type (animal. hill bush)
@@ -23,10 +23,10 @@ function arena(id, x, y, p1, p2) {
     this.isloaded = false;
     this.sendhp = false
     this.spawned = false
-    this.p1bites = 0
-    this.p2bites = 0
+//    this.p1bites = 0
+ //   this.p2bites = 0
     this.state = 0
-    this.movable = false
+    this.movable = true
     this.speed = 10
     this.killerid = 0
     this.isinvisible = false
